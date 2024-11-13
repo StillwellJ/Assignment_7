@@ -68,3 +68,7 @@ if response.status_code == 200:
 else:
     print(f"Error: {response.status_code}")
 ```
+
+UML Diagram
+----------------------------------------
+![UML Sequence Diagram Stillwell](https://github.com/user-attachments/assets/d2db6045-4c76-428c-8c02-72ce93bb03fa)
