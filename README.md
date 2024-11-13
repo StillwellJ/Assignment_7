@@ -32,6 +32,7 @@ Here is how to make a request to the microservice:
 
 Example Call to the Microservice in Python:
 -------------------------
+```python
 import requests
 
 url = "http://127.0.0.1:5000/api/search"
@@ -44,7 +45,7 @@ params = {
 response = requests.get(url, params=params)
 data = response.json()  # Parse JSON response
 print(data)  # Outputs the search results
-
+```
 How to Receive Data from the Microservice
 ------------------------------------
 All responses from the microservice will be in JSON format.
