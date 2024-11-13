@@ -57,6 +57,7 @@ All responses from the microservice will be in JSON format.
 
 Example of receiving a request from the microservice in Python.
 ----------------------------------------
+```python
 if response.status_code == 200:
     data = response.json()
     for result in data["results"]:
@@ -66,3 +67,4 @@ if response.status_code == 200:
         print(f"Timestamp: {result['timestamp']}\n")
 else:
     print(f"Error: {response.status_code}")
+```
